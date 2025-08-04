@@ -48,7 +48,14 @@ function App() {
   return (
     <div className="App" style={{ backgroundColor }}>
       <div className="container">
-        <h1 style={{ color: textColor }}>Background Color Changer</h1>
+        <div className="headline-section">
+          <h1 style={{ color: textColor }} className="main-title">
+            🎨 Color Magic
+          </h1>
+          <p style={{ color: textColor }} className="subtitle">
+            Transform your world with beautiful colors
+          </p>
+        </div>
         
         <div className="color-controls">
           <div className="color-picker-section">
